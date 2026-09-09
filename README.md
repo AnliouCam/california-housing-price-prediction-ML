@@ -1,4 +1,4 @@
-# Projet d'examen — Machine Learning (M2)
+# California Housing Price Prediction
 
 Sujet C : estimation de la valeur d'un bien immobilier (dataset California Housing).
 
@@ -29,10 +29,9 @@ pip install -r requirements.txt
 
 Le dataset (`California Housing`) est téléchargé automatiquement au premier appel de `fetch_california_housing()` (mis en cache localement ensuite, pas besoin de fichier de données séparé).
 
-## Dépannage
+## Astuce
 
-**Le kernel reste bloqué / une cellule tourne indéfiniment sans résultat dans VS Code :**
-Exécuter le notebook directement en ligne de commande à la place, ça contourne le problème :
+Au cas où une cellule mettrait du temps à répondre dans VS Code, il est aussi possible d'exécuter le notebook directement en ligne de commande :
 
 ```bash
 python -m nbconvert --to notebook --execute --inplace projet_ml.ipynb
@@ -46,7 +45,6 @@ Le fichier `projet_ml.ipynb` est alors réécrit avec tous les résultats (table
 Projet_Examen_ML/
 ├── projet_ml.ipynb     # Notebook principal (EDA, modélisation, évaluation, interprétabilité)
 ├── requirements.txt    # Dépendances Python (versions figées)
-├── PLAN.md             # Suivi d'avancement et observations pour le rapport
 └── README.md           # Ce fichier
 ```
 
