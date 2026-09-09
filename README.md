@@ -10,8 +10,8 @@ Sujet C : estimation de la valeur d'un bien immobilier (dataset California Housi
 ## Installation
 
 ```bash
-git clone <url-du-depot>
-cd Projet_Examen_ML
+git clone https://github.com/AnliouCam/california-housing-price-prediction-ML.git
+cd california-housing-price-prediction-ML
 
 # Optionnel mais recommandé : environnement virtuel isolé
 python -m venv .venv
